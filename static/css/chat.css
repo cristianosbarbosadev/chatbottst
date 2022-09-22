@@ -34,13 +34,6 @@
   transition: max-height 0.2s ease-out;
 }
 
-#laura {
-  width: 700px;
-  margin-left: 100px;
-  margin-top: 100px;
-  
-  position: fixed;
-}
 
 .outer-container {
   min-height: 500px;
@@ -61,7 +54,7 @@
 }
 
 .chat-container::-webkit-scrollbar {
-  display: none;
+  display:flex;
 }
 
 .chat-bar-input-block {
@@ -74,6 +67,7 @@
   background-color: rgb(252, 136, 59);
   border-radius: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
+  margin-bottom: 0px;
 }
 
 .chat-bar-icons {
@@ -117,6 +111,7 @@
   text-align: right;
   clear: both;
   text-transform: lowercase;
+  padding: 1rem;
 }
 
 .userText span {
