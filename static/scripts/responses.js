@@ -52,7 +52,7 @@ function getBotResponse(input) {
 
     //NHO
     else if (input == 'nho') {
-        return 'Mais uma sigla de muita importância! Normas de Higiene Ocupacional, são normas técnicas desenvolvidas pela Fundacentro.';
+        return 'Mais uma sigla de muita importância! Normas de Higiene Ocupacional, são normas técnicas desenvolvidas pela Fundacentro. Quer saber mais digita uma nho';
     } else if (input == 'objetivo da nho') {
         return 'Além das NRs – Normas Regulamentadoras, criadas pelo MTE para a segurança do trabalho, as NHOs tem como o foco dela é determinar limites de tolerância, metodologia de avaliação, critérios técnicos de equipamentos usados nas avaliações de riscos ocupacionais, bem como, servem de orientação sobre formas de agentes de riscos ambientais';
     } else if (input == 'quantas nhos existem') {
@@ -81,10 +81,10 @@ function getBotResponse(input) {
       return 'A NHO 03 Método de ensaio - Análise gravimétrica de aerodispersóides sólidos coletados sobre filtros de membrana traz o método de ensaio que estabelece a padronização dos procedimentos para análise gravimétrica de aerodispersóides sólidos coletados sobre filtros de membrana, com a finalidade de terminar a massa de poeira coletada do ar de um ambiente de trabalho. Esta Norma tem como objetivo prevenir doenças ocupacionais originadas da exposição dos trabalhadores e poeiras, fornecendo subsídios para a proposição de medidas de controle ou para a verificação de sua eficiência.”';
     } else if (input == 'nho3') {
       return 'A NHO 03 Método de ensaio - Análise gravimétrica de aerodispersóides sólidos coletados sobre filtros de membrana traz o método de ensaio que estabelece a padronização dos procedimentos para análise gravimétrica de aerodispersóides sólidos coletados sobre filtros de membrana, com a finalidade de terminar a massa de poeira coletada do ar de um ambiente de trabalho. Esta Norma tem como objetivo prevenir doenças ocupacionais originadas da exposição dos trabalhadores e poeiras, fornecendo subsídios para a proposição de medidas de controle ou para a verificação de sua eficiência.”';
-    }
+    } 
 
 
-    
+
     //assunto
     else if (input == 'sim') {
       return 'Show sobre o que vamos falar EPI, NHO, PGR, NR, bate papo ou jogar pedra papel e tesoura?';
