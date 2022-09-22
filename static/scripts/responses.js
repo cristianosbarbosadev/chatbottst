@@ -55,7 +55,9 @@ function getBotResponse(input) {
         return 'Mais uma sigla de muita importância! Normas de Higiene Ocupacional, são normas técnicas desenvolvidas pela Fundacentro.';
     } else if (input == 'objetivo da nho') {
         return 'Além das NRs – Normas Regulamentadoras, criadas pelo MTE para a segurança do trabalho, as NHOs tem como o foco dela é determinar limites de tolerância, metodologia de avaliação, critérios técnicos de equipamentos usados nas avaliações de riscos ocupacionais, bem como, servem de orientação sobre formas de agentes de riscos ambientais';
-    } else if (input == )
+    } else if (input == 'quantas nhos existem') {
+        return 'Temos 11 NHOs, porém vamos começar falando que a NHO 02, está em processo de reavaliação, então podemos dizer que temos ativa 10 NHO, se quiser saber o que cada uma diz, ou estabelece digite por exemplo: NHO 01';
+    }
 
     //assunto
     else if (input == 'sim') {
