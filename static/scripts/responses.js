@@ -14,21 +14,21 @@ function getBotResponse(input) {
 
     // saudação
     if (input == "Oi") {
-        return "Olá, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Olá, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == "bom dia") {
-        return "bom dia, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'bom dia, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == "boa tarde") {
-        return "boa tarde, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'boa tarde, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     }else if (input == "Boa noite") {
-        return "Boa noite, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Boa noite, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == "oi") {
-        return "Olá, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Olá, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == "bom dia") {
-        return "Bom dia, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Bom dia, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == "boa tarde") {
-        return "Boa tarde, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Boa tarde, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     }else if (input == "boa noite") {
-        return "Boa noite, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?";
+        return 'Boa noite, Meu nome é Laura sua Técnica em Saúde e Segurança Ocupacional Virtual vamos falar de Saúde e Segurança hoje?🦺👷‍♀️';
     } else if (input == 'qual seu nome') {
         return 'Meu nome é Laura... assim escolheram meus DEVS! só não me pergunte o porque rsrsrs!'
     } else if ( input == 'porque') {
