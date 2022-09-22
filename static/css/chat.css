@@ -116,6 +116,7 @@
   font-weight: normal;
   text-align: right;
   clear: both;
+  text-transform: lowercase;
 }
 
 .userText span {
@@ -128,6 +129,7 @@
   max-width: 80%;
   margin-right: 10px;
   animation: floatup 0.5s forwards;
+  text-transform: lowercase;
 }
 
 .botText {
