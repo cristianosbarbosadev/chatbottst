@@ -106,6 +106,7 @@
   color: #000;
   background-color: white;
   outline: none;
+  text-transform: lowercase;
 }
 
 .userText {
