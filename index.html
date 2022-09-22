@@ -13,8 +13,10 @@
   <body>
     <section>
 
-        <h1 class="titulo">TST 73 - Projeto integrador</h1>  
-
+      <div class="topo">
+        <img class="laura" src="./img/laura.png" alt="">
+        <h1  class="titulo">TST 73 - Projeto integrador</h1>  
+      </div>
         <!-- CHAT BAR BLOCK -->
         <div class="chat-bar-collapsible">
           <button id="chat-button" type="button" class="collapsible">
@@ -25,9 +27,12 @@
 
           <div class="content">
             <div class="full-chat-block">
+              
               <!-- Message Container -->
               <div class="outer-container">
+                
                 <div class="chat-container">
+                  
                   <!-- Messages -->
                   <div id="chatbox">
                     <h5 id="chat-timestamp"></h5>
@@ -35,35 +40,35 @@
                       <span>Loading...</span>
                     </p>
                   </div>
-
+                  
                   <!-- User input box -->
                   <div class="chat-bar-input-block">
                     <div id="userInput">
                       <input
-                        id="textInput"
-                        class="input-box"
-                        type="text"
-                        name="msg"
-                        placeholder="digite sua mensagem aqui"
-                        autofocus
+                      id="textInput"
+                      class="input-box"
+                      type="text"
+                      name="msg"
+                      placeholder="digite sua mensagem aqui"
+                      autofocus
                       />
                       <p></p>
                     </div>
-
+                    
                     <div class="chat-bar-icons">
                       <i
-                        id="chat-icon"
-                        class="fa fa-fw fa-heart"
-                        onclick="heartButton()"
+                      id="chat-icon"
+                      class="fa fa-fw fa-heart"
+                      onclick="heartButton()"
                       ></i>
                       <i
-                        id="chat-icon"
-                        class="fa fa-fw fa-send"
-                        onclick="sendButton()"
+                      id="chat-icon"
+                      class="fa fa-fw fa-send"
+                      onclick="sendButton()"
                       ></i>
                     </div>
                   </div>
-
+                  
                   <div id="chat-bar-bottom">
                     <p></p>
                   </div>
@@ -72,7 +77,9 @@
             </div>
           </div>
         </div>
+        
       </div>
+      
     </section>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -17,6 +17,7 @@ h1{
   font-size: 50px;
   border-radius: 10px;
   margin-bottom: 500px;
+  z-index: 0;
 }
 
 @keyframes animate{

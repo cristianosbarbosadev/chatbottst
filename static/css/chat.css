@@ -32,8 +32,19 @@
   overflow: auto;
   height: max-content;
   transition: max-height 0.2s ease-out;
+  
 }
 
+.topo{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.laura{
+  width: 9rem;
+  height: 13rem;
+}
 
 .outer-container {
   min-height: 500px;
@@ -49,6 +60,7 @@
   position: absolute;
   bottom: 25px;
   left: 0;
+
   
  
 }
