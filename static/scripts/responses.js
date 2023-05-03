@@ -113,9 +113,9 @@ function getBotResponse(input) {
       return 'E lá vamos nós... para mais uma sigla! PGR Programa de Gerenciamento de Risco';
     } else if (input == 'o que precisa ter no pgr') {
       return 'O PGR deve conter dois documentos obrigatórios: inventário de riscos ocupacionais e o plano de ação.';
-    } else if (input == 'para quem é obrigatório') {
+    } else if (input == 'pgr para quem é obrigatório') {
       return 'Vamos lá, de acordo com a norma, o PGR é obrigatório para todas empresas privadas e públicas, que tenham colaboradores regidos pela regime CLT.';
-    } else if (input == 'para quem e obrigatorio') {
+    } else if (input == 'pgr para quem e obrigatorio') {
       return 'Vamos lá, de acordo com a norma, o PGR é obrigatório para todas empresas privadas e públicas, que tenham colaboradores regidos pela regime CLT.';
     }
 
@@ -198,6 +198,8 @@ function getBotResponse(input) {
     else if (input == 'epi') {
       return 'Que bom, A verdade é que mesmo sendo uma obrigação, muitas vezes os EPIs não são utilizados corretamente, o que acaba gerando um transtorno enorme.Mas sobre qual tipo de EPI, me fala um tema relacionado ex: Ruído, Altura, Espaço confinado, Calor, Vibração ou Seu cargo Mecânico, Manutenção, Gari etc...⛑🚧🚦🧤';
     } else if (input == 'ruido') {
+      return 'Os mais simples é o tipo protetor auricular, também conhecidos como tampões ou “plugs“. Porém, também encontramos outros tipos de EPIs, os protetores chamados de “concha”, “fone” ou “abafador“. Se você tem dúvidas sobre qual é o EPI mais adequado para a sua atividade digite seu cargo.';
+    } else if (input == 'ruído') {
       return 'Os mais simples é o tipo protetor auricular, também conhecidos como tampões ou “plugs“. Porém, também encontramos outros tipos de EPIs, os protetores chamados de “concha”, “fone” ou “abafador“. Se você tem dúvidas sobre qual é o EPI mais adequado para a sua atividade digite seu cargo.';
     } else if (input == 'altura') {
       return '1 - Cinto de Segurança tipo paraquedista. 2 - Talabartes simples. 3 - Talabarte Y. 4 - Talabarte ajustável ( de posicionamento ) 5 - Trava-quedas. 6 - Capacete com jugular. 7 - Botinas de Segurança. 8 - Óculos de segurança.';
